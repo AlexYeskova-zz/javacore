@@ -1,6 +1,7 @@
 package com.yeskova.app.classwork.lesson3;
 
 import org.junit.Assert;
+import org.junit.Ignore;
 import org.junit.Test;
 
 /**
@@ -24,8 +25,10 @@ public class MathFuncTest {
         int a = 3;
         int b = 1;
         MathFunc mathFunc = new MathFunc();
-        int actualResult = mathFunc.substracktion(a, b);
+        int actualResult = mathFunc.subtracktion(a, b);
         int expectedResult = 2;
         Assert.assertEquals(expectedResult, actualResult);
     }
+
+
 }
