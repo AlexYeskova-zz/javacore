@@ -35,15 +35,15 @@ public class DataProviderEasyPhysTest {
     public void DataProviderForSasha(int argA, int argB, int expOut) {
         Assert.assertEquals(expOut, EasyPhys.momentum(argA, argB));
     }
-/*
+
     @Test
-    @Ignore
+
     @FileParameters( value = "src/test/resources/homework5-1.csv",
             mapper = CsvWithHeaderMapper.class)
 
     public void DataProviderForAlex(float argA, float argB, float expOut) {
-        Assert.assertEquals(expOut, EasyPhys.weight(argA, argB));
-    }*/
+        Assert.assertEquals(expOut, EasyPhys.weight1(argA,argB),0);
+    }
 
     @Test
     @FileParameters( value = "src/test/resources/homework5-2.csv",
